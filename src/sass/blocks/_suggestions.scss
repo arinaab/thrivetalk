@@ -1,0 +1,87 @@
+.suggestions {
+    min-height: 1440px;
+    &__items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_big {
+            flex-wrap: wrap;
+        }
+    }
+    &__item {
+        position: relative;
+        width: 365px;
+        height: 365px;
+        &_big {
+            width: 486px;
+            height: 486px;
+        }
+        &_pink {
+            background: #FFE2DE;
+        }
+        &_green {
+            background: #C4E769;
+        }
+        &_blue {
+            background: #62D0DF;
+        }
+        &_dark {
+            background: #0052C1
+        }
+        &_navy {
+            background: #22356F;
+        }
+        &_bg {
+            background-image: url('../img/nutrition.jpg');
+        }
+        &_gymn {
+            background: #62D0DF;
+        }
+        &_cross {
+            background: #DEE1FF;
+        }
+        &_viol {
+            background: #8F00FF;
+        }
+    }
+    &__divider {
+        position: absolute;
+        top: 65px;
+        right: 53px;
+        width: 255px;
+        height: 1.5px;
+        background-color: #fff;
+        &_big {
+            position: absolute;
+            top: 65px;
+            right: 72px;
+            width: 358px;
+            height: 1.5px;
+            background-color: #fff;
+        }
+    }
+    &__text {
+        position: relative;
+        max-width: 232px;
+        margin-left: 78px;
+        margin-top: 95px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: -0.006em;
+        color: #FFFFFF;
+        &::before {
+            content: '';
+            background: #E9B730;
+            width: 9px;
+            height: 9px;
+            border-radius: 100%;
+            position: absolute;
+            top: 8px;
+            left: -23px;
+        }
+    }
+}
+.divider {
+    height: 120px;
+}

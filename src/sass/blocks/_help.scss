@@ -1,0 +1,12 @@
+.help {
+    min-height: 115px;
+    padding-bottom: 24px;
+    padding-top: 70px;
+    &__text {
+        width: 215px;
+        margin: 0 auto;
+        font-size: 16px;
+        letter-spacing: 0.06em;
+        color: rgba(34, 53, 111, 0.5);
+    }
+}
