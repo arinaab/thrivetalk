@@ -1,0 +1,30 @@
+.why {
+    position: relative;
+    background: #62D0DF;
+    height: 607px;
+    padding: 151px 0 95px 178px;
+    h2 {
+        font-size: 36px;
+        letter-spacing: -0.006em;
+        color: #FFFFFF;
+    }
+    &__descr {
+        margin-top: 78px;
+        max-width: 560px;
+        font-size: 21px;
+        color: #FFFFFF;
+        font-weight: 600;
+        span {
+            font-weight: 100;
+        }
+    }
+    &__img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 607px;
+        img {
+            height: 100%;
+        }
+    }
+}
