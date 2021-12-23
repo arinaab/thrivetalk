@@ -54,10 +54,8 @@
     letter-spacing: 0.1em;
     color: #FAB63E;
     font-weight: 600;
+    text-transform: uppercase;
     &:hover {
         color: #FAB63E;
-    }
-    &_nomarg {
-        margin-left: 0;
     }
 }

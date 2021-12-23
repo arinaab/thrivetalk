@@ -30,4 +30,10 @@
             color: #62D0DF;
         }
     }
+    .link {
+        margin-left: 0;
+        &:hover {
+            color: #22356F;
+        }
+    }
 }

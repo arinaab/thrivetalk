@@ -1,0 +1,44 @@
+.smile {
+    position: relative;
+    background: #22356F;
+    height: 800px;
+    padding: 103px 0 42px 180px;
+    h3 {
+        color: #FFFFFF;
+    }
+    &__descr {
+        width: 580px;
+        margin-top: 75px;
+        font-size: 36px;
+        line-height: 53px;
+        letter-spacing: -0.005em;
+        color: #FFFFFF;
+    }
+    .link {
+        color: #62D0DF;
+        display: block;
+        margin-top: 70px;
+        margin-left: 0;
+        &:hover {
+            color: #FFFFFF;
+        }
+    }
+    &__img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-height: 800px;
+        max-width: 480px;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.h2 {
+    margin-top: 230px;
+    font-size: 64px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    font-weight: 600;
+}

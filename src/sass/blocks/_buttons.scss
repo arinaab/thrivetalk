@@ -7,6 +7,10 @@
     line-height: 16px;
     color: #FFFFFF;
     border: none;
+    &:hover {
+        background: #F4F9E2;
+        color: #62D0DF;
+    }
     &_who {
         margin-top: 63px;
         background: #F9B640;
@@ -17,5 +21,9 @@
         font-size: 16px;
         letter-spacing: 0.1em;
         color: #FFFFFF;
+        &:hover {
+            background: #F4F9E2;
+            color: #F9B640;
+        }
     }
 }

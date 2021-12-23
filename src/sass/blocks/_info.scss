@@ -1,0 +1,47 @@
+.info {
+    max-height: 380px;
+    display: flex;
+    justify-content: flex-start;
+    &__img {
+        max-width: 570px;
+        max-height: 380px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__text {
+        display: flex;
+        justify-content: space-between;
+        padding: 98px 40px 74px 68px;
+    }
+    &__some {
+        max-width: 210px;
+        margin-right: 80px;
+    }
+    &__title {
+        font-size: 14px;
+        letter-spacing: -0.006em;
+        color: #22356F;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    &__descr {
+        margin-top: 60px;
+        font-size: 14px;
+        line-height: 27px;
+        letter-spacing: -0.006em;
+        color: rgba(34, 53, 111, 0.5);
+    }
+    &__health {
+        margin-right: 95px;
+        width: 180px;
+    }
+    &__phone {
+        text-decoration: none;
+        color: rgba(34, 53, 111, 0.5);
+    }
+    &__addr {
+        text-decoration: none;
+    }
+}
