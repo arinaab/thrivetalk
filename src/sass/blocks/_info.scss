@@ -15,9 +15,15 @@
         justify-content: space-between;
         padding: 98px 40px 74px 68px;
     }
-    &__some {
-        max-width: 210px;
-        margin-right: 80px;
+    &__item {
+        &_some {
+            max-width: 210px;
+            margin-right: 80px;
+        }
+        &_health {
+            margin-right: 95px;
+            width: 180px;
+        }
     }
     &__title {
         font-size: 14px;
@@ -32,10 +38,6 @@
         line-height: 27px;
         letter-spacing: -0.006em;
         color: rgba(34, 53, 111, 0.5);
-    }
-    &__health {
-        margin-right: 95px;
-        width: 180px;
     }
     &__phone {
         text-decoration: none;

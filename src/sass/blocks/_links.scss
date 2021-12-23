@@ -1,0 +1,26 @@
+.link {
+    margin-left: 38px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #FAB63E;
+    font-weight: 600;
+    text-transform: uppercase;
+    &:hover {
+        color: #FAB63E;
+    }
+    &_nomarg {
+        margin-left: 0;
+        &:hover {
+            color: #22356F;
+        }
+    }
+    &_mt {
+        color: #62D0DF;
+        display: block;
+        margin-top: 70px;
+        margin-left: 0;
+        &:hover {
+            color: #FFFFFF;
+        }
+    }
+}
