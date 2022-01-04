@@ -1,6 +1,7 @@
 * {
     font-family: 'Arimo', sans-serif; 
     margin: 0px;
+    /* overflow-x: hidden; */
 }
 @import 'blocks/promo';
 @import 'blocks/titles';
@@ -15,3 +16,4 @@
 @import 'blocks/info';
 @import 'blocks/footer';
 @import 'blocks/links';
+@import 'media';
