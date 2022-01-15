@@ -176,7 +176,11 @@
 }
 @media (max-width: 767px) {
     .promo {
+        padding-left: 30px;
         position: relative;
+        &__descr {
+            font-size: 20px;
+        }
     }
     .promo__menu {
         position: fixed;
@@ -200,12 +204,15 @@
     }
     .logo {
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 40%;
+        transform: translateX(-40%);
     }
     .promo__content {
         .logo {
             display: none;
+        }
+        .title {
+            font-size: 39px;
         }
     }
     .hamburger {
@@ -214,7 +221,7 @@
         justify-content: space-between;
         position: absolute;
         transform: translateY(-50%);
-        top: 40px;
+        top: 48px;
         left: 20px;
         width: 35px;
         height: 16px;
@@ -228,15 +235,32 @@
         &_active {
             span {
                 &:nth-child(1) {
-                    transform:  rotate(-23deg);
+                    transform:  rotate(-21deg);
                 }
                 &:nth-child(2) {
                     display: none;
                 }
                 &:nth-child(3) {
-                    transform: rotate(23deg);
+                    transform: rotate(21deg);
                 }
             }
         }
+    }
+    .why {
+        padding-left: 25px;
+        &__descr {
+            width: 520px;
+            line-height: 43px;
+            font-size: 18px;
+        }
+    }
+    .about {
+        padding-left: 25px;
+    }
+    .divider {
+        height: 70px;
+    }
+    .also {
+        padding-left: 25px;
     }
 }
