@@ -13,7 +13,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0;
-        li {
+        &__item {
             font-size: 14px;
             line-height: 16px;
             color: #22356F;
@@ -21,6 +21,8 @@
             &:last-child {
                 margin-right: 0;
             }
+        }
+        li {
             a {
                 text-decoration: none;
                 color: #22356F;
@@ -47,4 +49,7 @@
     line-height: 27px;
     letter-spacing: -0.035em;
     color: #62D0DF;
+}
+.hamburger {
+    display: none;
 }
