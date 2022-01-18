@@ -8,6 +8,10 @@
     padding: 103px 0 42px 180px;
     h3 {
         color: #FFFFFF;
+        cursor: pointer;
+        &:hover {
+            color: #62D0DF;
+        }
     }
     &__descr {
         width: 580px;
