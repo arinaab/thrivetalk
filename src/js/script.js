@@ -4,17 +4,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const promoMenu = document.querySelector('.promo__menu'),
           hamburger = document.querySelector('.hamburger'),
-          menuItem = document.querySelectorAll('.promo__menu__item')
+          menuItem = document.querySelectorAll('.promo__menu__item');
 
     hamburger.addEventListener('click', () => {
         promoMenu.classList.toggle('promo__menu_active');
         hamburger.classList.toggle('hamburger_active');
+        document.body.classList.add('overflow');
     });
 
     menuItem.forEach(item => {
         item.addEventListener('click', () => {
             promoMenu.classList.toggle('promo__menu_active');
-            hamburger.classList.toggle('hamburger_active')
+            hamburger.classList.toggle('hamburger_active');
         });
     });
 }); 
