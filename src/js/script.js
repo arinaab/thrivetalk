@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     hamburger.addEventListener('click', () => {
         promoMenu.classList.toggle('promo__menu_active');
         hamburger.classList.toggle('hamburger_active');
-        document.body.classList.add('overflow');
+        document.body.classList.toggle('overflow');
     });
 
     menuItem.forEach(item => {
